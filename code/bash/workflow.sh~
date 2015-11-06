@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+
+rm ../../data/dependencies.txt ../../data/catalogs.json ../../data/inventory_test.csv ../../data/MAT_test.csv
+./getDatasets.sh
+./getMat.sh
